@@ -7,16 +7,27 @@
     <title>JokeJoy</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Get ready to chuckle, giggle, and burst into laughter!</h1>
+    <div class="container">  
+        <h1>Get ready to chuckle, giggle, and burst into laughter!✌️</h1>  
+        <form action="/" id="form" class="form" method="POST">
+            <select name="type" class="form-select">
+              <option value="Any" data-display="Select">Any</option>
+              <option value="programming">Programming</option>
+              <option value="Misk">Misk</option>
+              <option value="Dark">Dark</option>
+              <option value="Pun">Pun</option>
+              <option value="Spooky">Spooky</option>
+              <option value="Christmas">Christmas</option>
+            </select>
+            <button type="submit" class="joke-button">Get a Joke!</button>
+          </form>
 
-        <form action="/" method="post">
-            <button type="submit">Get a Joke!</button>
-        </form>
             <%if (locals.data) {%>
                 <h2>
                   <%=data.joke %>
                 </h2>
+                <h3> 
+                    Joke Type: <%= data.category%></h3>
               <%}%>
                 <%if (locals.error) {%>
                   <div id="tag-error" class="tag-error">
