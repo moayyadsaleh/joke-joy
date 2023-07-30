@@ -1,0 +1,29 @@
+* {
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%2349e30b' fill-opacity='0.12' fill-rule='evenodd'/%3E%3C/svg%3E");;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+button {
+    background-color: #4CAF50; /* Set the background color */
+    color: white; /* Set the text color */
+    font-size: 18px; /* Set the font size */
+    padding: 12px 20px; /* Add padding to the button */
+    border: none; /* Remove the button border */
+    border-radius: 4px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor to a hand when hovering over the button */
+    transition: background-color 0.3s ease; /* Add a smooth transition effect */
+}
+
+button:hover {
+    background-color: #45a049; /* Change the background color on hover */
+}
