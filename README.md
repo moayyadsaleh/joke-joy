@@ -15,6 +15,9 @@ Asynchronous Programming: To optimize performance and responsiveness, I utilized
 
 Error Handling: I implemented error handling mechanisms to gracefully manage any issues that might arise during data fetching or API interactions. 
 
+
+![Screenshot 2023-07-30 173739](https://github.com/moayyadsaleh/joke-joy/assets/137034202/3f08677f-2c42-402f-8d08-db98d535427d)
+
 Responsive Design: I designed the user interface to be responsive, allowing JokeJoy to adapt and provide an optimal experience across various devices, including desktops, tablets, and smartphones.
 
 Version Control (Git): Throughout the development process, I used Git for version control, enabling me to manage changes effectively.
