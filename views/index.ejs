@@ -8,39 +8,21 @@
 </head>
 <body>
     <div class="container">
-        <h1>Need a Good Laugh?</h1>
-        <p>Get ready to chuckle, giggle, and burst into laughter!</p>
-        
+        <h1>Get ready to chuckle, giggle, and burst into laughter!</h1>
+
         <form action="/" method="post">
             <button type="submit">Get a Joke!</button>
         </form>
-        <section id="cards" class="cards">
             <%if (locals.data) {%>
-      
-              <article class="card-item">
-                <h2 class="card-activity">
+                <h2>
                   <%=data.joke %>
                 </h2>
-                <div class="card-info">
-                  <span class="card-type">
-                    <span> Activity Type: </span><%=data.type%>
-                  </span>
-                  <span class="card-participants">
-                    participants: <%= data.participants%>
-                      <span class="card-number"></span>
-                  </span>
-                </div>
-              </article>
-      
               <%}%>
-      
-      
                 <%if (locals.error) {%>
                   <div id="tag-error" class="tag-error">
                     <%=error%>
                   </div>
                   <%}%>
-          </section>
         </div>
     </div>
 </body>

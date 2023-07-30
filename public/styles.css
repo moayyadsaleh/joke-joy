@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
 * {
     background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%2349e30b' fill-opacity='0.12' fill-rule='evenodd'/%3E%3C/svg%3E");;
 }
@@ -7,10 +10,22 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 .container {
     text-align: center;
+    display: flex;
+    flex-direction: column; /* Make the paragraphs display in a vertical column */
+    align-items: center; /* Align items horizontally in the center */
+}
+
+p {
+    /* Add styles for the paragraphs */
+    padding: 10px; /* Add padding around the paragraphs */
+    margin: 10px 0; /* Add vertical margin between paragraphs */
+    background-color: #f0f0f0; /* Add a background color to the paragraphs */
+    border-radius: 4px; /* Add rounded corners */
 }
 
 button {
@@ -22,6 +37,7 @@ button {
     border-radius: 4px; /* Add rounded corners */
     cursor: pointer; /* Change cursor to a hand when hovering over the button */
     transition: background-color 0.3s ease; /* Add a smooth transition effect */
+    font-family: 'Roboto', sans-serif;
 }
 
 button:hover {
