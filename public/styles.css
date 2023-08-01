@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%2349e30b' fill-opacity='0.12' fill-rule='evenodd'/%3E%3C/svg%3E");;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column; /* Make the form elements display in a vertical column */
+    align-items: center; /* Align form elements horizontally in the center */
+    padding: 20px; /* Add padding to the form container */
+    border-radius: 4px; /* Add rounded corners to the form container */
+}
+
+.form-select {
+    /* Add styles for the select element if needed */
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #4CAF50;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1px; /* Add some space between the select element and the button */
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+::selection {
+    background-color: #ffcc00;
+    color: #000000;
+}
+
+.joke-button {
+    margin-top: 5px;
+    
+}
